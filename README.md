@@ -2,7 +2,7 @@
 This is a ALX Holberton School project on sorting algorithms in C language.
 
 <p align="center">
-<img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/248/willy-wonka.png" width="700" height="350" />
+<img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/248/willy-wonka.png" width="600" height="250" />
 </p>
 
 ## Table of Contents
@@ -24,7 +24,7 @@ This is a ALX Holberton School project on sorting algorithms in C language.
 - The use of global variables is not allowed.
 
 ## Data Structure and Functions
-- For this project you are given the following `print_array`, and `print_list` functions:
+- For this project we are given the following `print_array`, and `print_list` functions:
 
 ```C
 #include <stdlib.h>
@@ -75,6 +75,22 @@ void print_list(const listint_t *list)
     }
     printf("\n");
 }
+```
+**Here's the data structure for doubly linked list:**
+```C
+/**
+ * struct listint_s - Doubly linked list node
+ *
+ * @n: Integer stored in the node
+ * @prev: Pointer to the previous element of the list
+ * @next: Pointer to the next element of the list
+ */
+typedef struct listint_s
+{
+    const int n;
+    struct listint_s *prev;
+    struct listint_s *next;
+} listint_t;
 ```
 
 ## Authors & Credits
