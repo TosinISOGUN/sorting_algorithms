@@ -106,4 +106,4 @@ typedef struct listint_s
 
 ## Authors & Credits
 - [Oluwatomisin ISOGUN](https://github.com/TosinISOGUN)
-> Collaborators are acknowledged within the project.
+> Other collaborators are acknowledged within the project.
