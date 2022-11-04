@@ -8,9 +8,20 @@ This is a ALX Holberton School project on sorting algorithms in C language.
 ## Table of Contents
 | `Files` | `Description` |
 | --- | --- |
-|
-
-
+| [sort.h](https://github.com/TosinISOGUN/sorting_algorithms/blob/main/sort.h) | Header file which contains all the function prototypes. | 
+| [0-bubble_sort.c](https://github.com/TosinISOGUN/sorting_algorithms/blob/main/0-bubble_sort.c), [0-O](https://github.com/TosinISOGUN/sorting_algorithms/blob/main/0-O) | A function that sorts an array of integers in ascending order using the Bubble sort algorithm. |
+| [1-insertion_sort_list.c](https://github.com/TosinISOGUN/sorting_algorithms/blob/main/1-insertion_sort_list.c), [1-O](https://github.com/TosinISOGUN/sorting_algorithms/blob/main/1-O) | A function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm. |
+| [2-selection_sort.c](), [2-O]() | A function that sorts an array of integers in ascending order using the Selection sort algorithm. |
+| [3-quick_sort.c](), [3-O]() | A function that sorts an array of integers in ascending order using the Quick sort algorithm. |
+| [100-shell_sort.c]() | A function that sorts an array of integers in ascending order using the Shell sort algorithm, using the `Knuth sequence`. |
+| [101-cocktail_sort_list.c](), [101-O]() | A function that sorts a doubly linked list of integers in ascending order using the [Cocktail shaker sort](https://alx-intranet.hbtn.io/rltoken/bwa4mHfUbbWTB8J2OIHvpA) algorithm. |
+| [102-counting_sort.c](), [102-O]() | A function that sorts an array of integers in ascending order using the Counting sort algorithm. |
+| [103-merge_sort.c](), [103-O]() | A function that sorts an array of integers in ascending order using the [Merge sort](https://alx-intranet.hbtn.io/rltoken/8sZ3nAhd_YLNzHCgNbbf8A) algorithm. |
+| [104-heap_sort.c](), [104-O]() | A function that sorts an array of integers in ascending order using the Heap sort algorithm. |
+| [105-radix_sort.c]() | A function that sorts an array of integers in ascending order using the [Radix sort](https://alx-intranet.hbtn.io/rltoken/pBsj4j_AF_mJAgNZWmX3VQ) algorithm. |
+| [106-bitonic_sort.c](), [106-O]() | A function that sorts an array of integers in ascending order using the [Bitonic sort](https://alx-intranet.hbtn.io/rltoken/N-bjAbxm5yr4DoeIDz5lLw) algorithm. |
+| [107-quick_sort_hoare.c](), [107-O]() | A function that sorts an array of integers in ascending order using the [Quick sort](https://alx-intranet.hbtn.io/rltoken/_pBTrH0Xyo4BRmQn4CtnMg) algorithm. |
+| [1000-sort_deck.c](), [deck.h]() | A function that sorts a deck of cards. |
 
 ## Environment & Requirements
 <img src="https://alx-apply.hbtn.io/brand_alx/share_image_2019.jpg" width="300" height="100" />
